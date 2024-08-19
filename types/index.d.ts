@@ -75,6 +75,12 @@ declare type SearchParamProps = {
     userId: string;
     email: string;
   };
+  type CollaboratorInfo = {
+    id: string;
+    avatar: string;
+    name: string;
+    color: string;
+  };
   
   declare type DeleteModalProps = { roomId: string };
   

@@ -35,6 +35,7 @@ import {
   useState,
   useSyncExternalStore,
 } from 'react';
+import { Button } from '@/components/ui/button';
 
 const LowPriority = 1;
 
@@ -145,7 +146,7 @@ export default function ToolbarPlugin() {
         <i className="format redo" />
       </button>
       <Divider />
-      <button
+      <Button
         onClick={() => editor.update(() => toggleBlock('h1'))}
         data-active={activeBlock === 'h1' ? '' : undefined}
         className={
@@ -153,8 +154,8 @@ export default function ToolbarPlugin() {
         }
       >
         <i className="format h1" />
-      </button>
-      <button
+      </Button>
+      <Button
         onClick={() => editor.update(() => toggleBlock('h2'))}
         data-active={activeBlock === 'h2' ? '' : undefined}
         className={
@@ -162,8 +163,8 @@ export default function ToolbarPlugin() {
         }
       >
         <i className="format h2" />
-      </button>
-      <button
+      </Button>
+      <Button
         onClick={() => editor.update(() => toggleBlock('h3'))}
         data-active={activeBlock === 'h3' ? '' : undefined}
         className={
@@ -171,7 +172,7 @@ export default function ToolbarPlugin() {
         }
       >
         <i className="format h3" />
-      </button>
+      </Button>
       <Divider />
       <button
         onClick={() => {

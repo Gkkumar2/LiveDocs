@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       userId: user.info.email,
       groupIds: [],
     },
-    { userInfo: user.info },
+    { userInfo:user.info },
   );
 
   return new Response(body, { status });
