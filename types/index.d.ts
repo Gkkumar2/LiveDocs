@@ -30,6 +30,7 @@ declare type SearchParamProps = {
     userType?: UserType;
   };
   
+  
   declare type ShareDocumentParams = {
     roomId: string;
     email: string;
