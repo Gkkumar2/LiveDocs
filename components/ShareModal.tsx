@@ -16,11 +16,9 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
-
-
-import { updateDocumentAccess } from "@/lib/actions/room.actions";
-import Collaborator from "./Collaborator";
 import UserTypeSelector from "./UserTypeSelector";
+import Collaborator from "./Collaborator";
+import { updateDocumentAccess } from "@/lib/actions/room.actions";
 
 const ShareModal = ({ roomId, collaborators, creatorId, currentUserType }: ShareDocumentDialogProps) => {
   const user = useSelf();
