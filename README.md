@@ -1,3 +1,16 @@
+# LiveDocs
+
+**LiveDocs** is a collaborative application that improves upon Google Docs by managing millions of collaborators in real-time. It offers enhanced features and scalability for seamless, large-scale collaboration.
+
+## Features
+
+- Real-time collaboration with millions of users
+- Enhanced document management
+- Scalable infrastructure
+
+##Link
+ [Next.js](https://nextjs.org/) 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
